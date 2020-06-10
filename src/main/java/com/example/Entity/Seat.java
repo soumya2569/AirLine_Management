@@ -1,4 +1,4 @@
-package Entity;
+package com.example.Entity;
 
 public class Seat {
 

@@ -1,4 +1,4 @@
-package Controller;
+package com.example.AirLineReservationSystem.Controller;
 
 import java.util.Collection;
 import java.util.List;
@@ -11,8 +11,8 @@ import org.springframework.web.bind.annotation.PathVariable;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;
 
-import Model.FlightDetailsDTO;
-import Service.ServiceToAllFlight;
+import com.example.Model.FlightDetailsDTO;
+import com.example.Service.ServiceToAllFlight;
 
 @RestController
 @CrossOrigin

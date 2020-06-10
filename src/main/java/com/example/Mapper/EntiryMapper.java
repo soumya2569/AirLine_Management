@@ -1,8 +1,9 @@
-package Mapper;
+package com.example.Mapper;
 
 import java.util.List;
 
-import Model.FlightDetailsDTO;
+import com.example.Model.FlightDetailsDTO;
+
 
 public interface EntiryMapper <D ,E> {
 

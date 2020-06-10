@@ -1,19 +1,19 @@
-package Service;
+package com.example.Service;
 
 
 import java.util.ArrayList;
 import java.util.List;
 
-import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.data.domain.Sort;
 import org.springframework.data.domain.Sort.Direction;
 import org.springframework.data.domain.Sort.Order;
+import org.springframework.stereotype.Service;
 
-import Entity.FlightDetails;
-import Mapper.FlightDetailsMapper;
-import Model.FlightDetailsDTO;
-import Repository.DaoRepoFlightDetails;
+import com.example.Mapper.FlightDetailsMapper;
+import com.example.Model.FlightDetailsDTO;
+import com.example.Repository.DaoRepoFlightDetails;
 
+@Service
 public class ServiceToAllFlight {
 	
 	
